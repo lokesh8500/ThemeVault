@@ -1,0 +1,1077 @@
+
+/* =========================================
+   GLOBAL CSS
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171b2a;
+    background: #ffffff;
+}
+
+
+/* =========================================
+   PICK YOUR STACK SECTION
+========================================= */
+
+.stack-section {
+    min-height: 596px;
+    padding: 9px 4.05% 105px;
+    background: #f5f6fb;
+}
+
+
+/* Section Heading */
+
+.section-heading {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    color: #ff3e4b;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.45px;
+}
+
+.section-heading h1 {
+    margin-top: 17px;
+    font-size: clamp(30px, 2.75vw, 49px);
+    line-height: 1.16;
+    letter-spacing: -1.8px;
+    font-weight: 750;
+}
+
+.section-description {
+    margin-top: 12px;
+    color: #71809a;
+    font-size: 19px;
+    line-height: 1.55;
+}
+
+
+/* Stack Cards Grid */
+
+.stack-grid {
+    width: 100%;
+    max-width: 1700px;
+    margin: 47px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 19px;
+}
+
+
+/* Individual Stack Cards */
+
+.stack-card {
+    min-width: 0;
+    min-height: 270px;
+    padding: 26px;
+
+    background: #ffffff;
+    border: 1px solid #e1e5ed;
+    border-radius: 20px;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stack-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(26, 35, 58, 0.08);
+}
+
+
+/* Stack Icons */
+
+.stack-icon {
+    width: 53px;
+    height: 53px;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-bottom: 21px;
+}
+
+.html-icon {
+    background: #f43f4b;
+}
+
+.wordpress-icon {
+    background: #247fa1;
+}
+
+.elementor-icon {
+    background: #a00042;
+}
+
+.next-icon {
+    background: #111111;
+}
+
+.astro-icon {
+    background: #7938ed;
+}
+
+
+/* Stack Card Text */
+
+.stack-card h2 {
+    color: #101522;
+    font-size: 21px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.stack-card p {
+    color: #71809a;
+    font-size: 17px;
+    line-height: 1.65;
+
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+
+/* Stack Card Price */
+
+.price {
+    margin-top: 22px;
+    color: #111522;
+    font-size: 16px;
+}
+
+.price strong {
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.price span {
+    color: #52617b;
+    font-size: 16px;
+}
+
+
+/* =========================================
+   WHY PEOPLE TRUST THEMEVAULT
+========================================= */
+
+.trust-section {
+    width: 100%;
+    background: #ffffff;
+    padding: 0 4.05% 38px;
+    border-top: none;
+}
+
+
+/* Trust Heading */
+
+.trust-heading {
+    text-align: center;
+    padding-top: 2px;
+    margin-bottom: 48px;
+}
+
+.trust-heading .eyebrow {
+    margin-bottom: 17px;
+}
+
+.trust-heading h1 {
+    font-size: clamp(30px, 2.8vw, 50px);
+    font-weight: 750;
+    color: #171b2a;
+    letter-spacing: -1.6px;
+    line-height: 1.2;
+}
+
+
+/* Trust Cards Grid */
+
+.trust-grid {
+    width: 100%;
+    max-width: 1750px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+
+/* Individual Trust Cards */
+
+.trust-card {
+    min-width: 0;
+    min-height: 290px;
+    padding: 35px;
+
+    background: #ffffff;
+    border: 1px solid #e0e4ed;
+    border-radius: 20px;
+
+    transition: 0.3s ease;
+}
+
+.trust-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+
+/* Trust Icons */
+
+.trust-icon {
+    width: 60px;
+    height: 60px;
+
+    background: #ffe8e9;
+    color: #ff3e4b;
+
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 27px;
+    font-weight: bold;
+
+    margin-bottom: 25px;
+}
+
+
+/* Trust Card Text */
+
+.trust-card h2 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #101522;
+    margin-bottom: 14px;
+}
+
+.trust-card p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #71809a;
+
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+
+/* =========================================
+   BACK TO TOP BUTTON
+========================================= */
+
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 28px;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ff3e4b;
+    color: #ffffff;
+
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 400;
+
+    box-shadow: 0 8px 20px rgba(255, 62, 75, 0.18);
+
+    z-index: 1000;
+}
+
+
+/* =========================================
+   VERSION HISTORY SECTION
+========================================= */
+
+.version-section {
+    width: 100%;
+    padding: 20px 4.05% 102px;
+    background: #ffffff;
+}
+
+.version-content {
+    width: 100%;
+    max-width: 1700px;
+    min-height: 362px;
+
+    margin: auto;
+
+    background: #1b2033;
+    border-radius: 32px;
+
+    padding: 65px;
+
+    display: grid;
+    grid-template-columns: 1fr 1.08fr;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* Version Left Side */
+
+.version-text {
+    color: #ffffff;
+}
+
+.version-label {
+    color: #ff626c;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    margin-bottom: 6px;
+}
+
+.version-text h1 {
+    color: #ffffff;
+    font-size: clamp(30px, 2.5vw, 43px);
+    font-weight: 750;
+    letter-spacing: -1.3px;
+    line-height: 1.2;
+    margin-bottom: 17px;
+}
+
+.version-description {
+    color: #d5d9e5;
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+
+/* Version Example Button */
+
+.version-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 17px 28px;
+
+    border: 2px solid #707587;
+    border-radius: 40px;
+
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.version-button:hover {
+    background: #ffffff;
+    color: #1b2033;
+    border-color: #ffffff;
+}
+
+
+/* Version Right Side Card */
+
+.version-card {
+    width: 100%;
+    min-height: 161px;
+
+    background: #ffffff;
+    border-radius: 21px;
+
+    padding: 29px 28px;
+}
+
+
+/* Version Card Header */
+
+.version-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.version-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.version-number {
+    background: #1b2033;
+    color: #ffffff;
+
+    padding: 6px 11px;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.version-title h3 {
+    color: #101522;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.version-date {
+    color: #71809a;
+    font-size: 16px;
+}
+
+
+/* Version Divider */
+
+.version-divider {
+    width: 100%;
+    height: 1px;
+    background: #e1e5ed;
+    margin: 17px 0 25px;
+}
+
+
+/* Version Update */
+
+.version-update {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.check-icon {
+    color: #00866a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.version-update p {
+    color: #52617b;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   SIMPLE PRICING HEADING
+========================================= */
+
+.pricing-section {
+    width: 100%;
+    min-height: 300px;
+
+    background: #f5f6fb;
+
+    padding: 105px 4% 60px;
+}
+
+.pricing-heading {
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.pricing-label {
+    color: #ff3e4b;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 17px;
+}
+
+.pricing-heading h1 {
+    color: #171b2a;
+    font-size: clamp(32px, 2.8vw, 49px);
+    font-weight: 750;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.pricing-description {
+    color: #71809a;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   PRICING PLANS SECTION
+========================================= */
+
+.plans-section {
+    width: 100%;
+    background: #f5f6fb;
+    padding: 27px 4% 65px;
+}
+
+.plans-container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+}
+
+
+/* =========================================
+   PRICING CARDS
+========================================= */
+
+.plan-card {
+    position: relative;
+    min-width: 0;
+    min-height: 572px;
+
+    padding: 43px 40px 40px;
+
+    border-radius: 29px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.starter-card {
+    background: #ffffff;
+    border: 1px solid #e1e5ed;
+    color: #171b2a;
+}
+
+.pro-card {
+    background: #1b2033;
+    color: #ffffff;
+    border: 1px solid #1b2033;
+}
+
+
+/* =========================================
+   PLAN TITLE
+========================================= */
+
+.plan-name {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #71809a;
+    margin-bottom: 16px;
+}
+
+.pro-card .plan-name {
+    color: #ff737b;
+}
+
+
+/* =========================================
+   PLAN PRICE
+========================================= */
+
+.plan-price {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.plan-price h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    font-weight: 750;
+    letter-spacing: -2px;
+    color: #171b2a;
+}
+
+.plan-price span {
+    font-size: 18px;
+    color: #71809a;
+}
+
+.pro-card .plan-price h1 {
+    color: #ffffff;
+}
+
+
+/* =========================================
+   PLAN DESCRIPTION
+========================================= */
+
+.plan-description {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #52617b;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.pro-card .plan-description {
+    color: #e0e3ed;
+}
+
+
+/* =========================================
+   PLAN FEATURES
+========================================= */
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.plan-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+
+    font-size: 18px;
+    line-height: 1.55;
+
+    overflow-wrap: anywhere;
+}
+
+
+/* Available Features */
+
+.plan-features .available {
+    color: #52617b;
+}
+
+.plan-features .available span {
+    color: #00866a;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.3;
+    flex-shrink: 0;
+}
+
+.pro-card .plan-features .available {
+    color: #e0e3ed;
+}
+
+.pro-card .plan-features .available span {
+    color: #36d994;
+}
+
+
+/* Unavailable Features */
+
+.plan-features .unavailable {
+    color: #98a1b5;
+}
+
+.plan-features .unavailable span {
+    color: #c5cad5;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.2;
+    flex-shrink: 0;
+}
+
+
+/* =========================================
+   PRICING BUTTONS
+========================================= */
+
+.plan-button {
+    width: 100%;
+    min-height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: auto;
+    padding: 15px 20px;
+
+    border-radius: 40px;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.3s ease;
+}
+
+
+/* Starter Button */
+
+.starter-button {
+    margin-top: 35px;
+
+    background: #ffffff;
+    color: #171b2a;
+
+    border: 2px solid #1b2033;
+}
+
+.starter-button:hover {
+    background: #1b2033;
+    color: #ffffff;
+}
+
+
+/* Pro Button */
+
+.pro-button {
+    margin-top: 35px;
+
+    background: #f43f4b;
+    color: #ffffff;
+
+    border: 2px solid #f43f4b;
+}
+
+.pro-button:hover {
+    background: #dc2e3b;
+    border-color: #dc2e3b;
+}
+
+
+/* Best Value Badge */
+
+.best-value {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+
+    background: #f43f4b;
+    color: #ffffff;
+
+    padding: 10px 16px;
+    border-radius: 30px;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   PRICING FOOTER
+========================================= */
+
+.pricing-footer {
+    width: 100%;
+    max-width: 1120px;
+
+    margin: 30px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    color: #71809a;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.pricing-footer strong {
+    color: #101522;
+    font-size: 19px;
+    font-weight: 750;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 1100px) {
+
+    .stack-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .stack-section {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .trust-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+/* Pricing Tablet Design */
+
+@media (max-width: 1000px) {
+
+    .version-content {
+        grid-template-columns: 1fr;
+        padding: 45px;
+        gap: 35px;
+    }
+
+    .version-card {
+        max-width: 100%;
+    }
+
+    .plans-container {
+        max-width: 750px;
+        gap: 20px;
+    }
+
+    .plan-card {
+        padding: 35px 25px;
+        min-height: 590px;
+    }
+
+    .plan-price h1 {
+        font-size: 43px;
+    }
+
+    .plan-features li {
+        font-size: 16px;
+    }
+
+    .pricing-footer {
+        justify-content: center;
+        text-align: center;
+        gap: 15px 25px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 700px) {
+
+    /* Stack Section */
+
+    .stack-section {
+        padding: 28px 18px 65px;
+    }
+
+    .section-heading h1 {
+        font-size: 32px;
+        letter-spacing: -0.8px;
+    }
+
+    .section-description {
+        font-size: 16px;
+    }
+
+    .desktop-break {
+        display: none;
+    }
+
+    .stack-grid {
+        margin-top: 32px;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stack-card {
+        min-height: auto;
+        padding: 23px;
+    }
+
+
+    /* Trust Section */
+
+    .trust-section {
+        padding: 0 18px 30px;
+    }
+
+    .trust-heading {
+        margin-bottom: 30px;
+    }
+
+    .trust-heading h1 {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .trust-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .trust-card {
+        min-height: auto;
+        padding: 25px;
+    }
+
+    .trust-card p {
+        font-size: 16px;
+    }
+
+
+    /* Back To Top */
+
+    .back-to-top {
+        width: 50px;
+        height: 50px;
+        right: 18px;
+        bottom: 18px;
+    }
+
+
+    /* Version Section */
+
+    .version-section {
+        padding: 20px 18px 65px;
+    }
+
+    .version-content {
+        padding: 30px 22px;
+        border-radius: 23px;
+        gap: 30px;
+    }
+
+    .version-text h1 {
+        font-size: 30px;
+    }
+
+    .version-description {
+        font-size: 16px;
+    }
+
+    .version-card {
+        padding: 22px 18px;
+    }
+
+    .version-card-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .version-title h3 {
+        font-size: 16px;
+    }
+
+    .version-date {
+        font-size: 14px;
+    }
+
+    .version-update p {
+        font-size: 15px;
+    }
+
+
+    /* Pricing Heading */
+
+    .pricing-section {
+        padding: 70px 18px 45px;
+        min-height: 250px;
+    }
+
+    .pricing-heading h1 {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .pricing-description {
+        font-size: 16px;
+    }
+
+
+    /* Pricing Plans */
+
+    .plans-section {
+        padding: 45px 18px;
+    }
+
+    .plans-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .plan-card {
+        min-height: auto;
+        padding: 35px 25px;
+        border-radius: 23px;
+    }
+
+    .plan-name {
+        font-size: 17px;
+    }
+
+    .plan-price h1 {
+        font-size: 45px;
+    }
+
+    .plan-price span {
+        font-size: 16px;
+    }
+
+    .plan-description {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .plan-features {
+        gap: 15px;
+    }
+
+    .plan-features li {
+        font-size: 16px;
+    }
+
+    .plan-button {
+        min-height: 58px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .best-value {
+        right: 20px;
+        font-size: 13px;
+    }
+
+    .pricing-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        gap: 12px;
+        margin-top: 30px;
+    }
+
+}
